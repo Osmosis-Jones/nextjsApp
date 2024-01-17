@@ -1,11 +1,11 @@
 import React from 'react'
-import sky from '../assets/video.mp4'
+
 
 const Video = () => {
     return (
         <div>
-            <video className='w-full'>
-                <source src={sky} type="video/mp4" />
+            <video className='w-full px-16'>
+                <source src='https://mementostudio.netlify.app/images/video.mp4' type="video/mp4" />
             </video>
         </div>
     )

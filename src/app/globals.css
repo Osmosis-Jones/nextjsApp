@@ -2,3 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+.inner-container {
+    background: rgb(9, 9, 121);
+    background: radial-gradient(cirlce , rgb(75, 52, 48) 0%, rgb(11, 28, 103)100%);
+    background-size: 200% 100%;
+    height: 400px; /* Set your desired height */
+    width: 400px; /* Set your desired width */
+    border-radius: 50%; /* Ensure it's a circle */
+  }
+  
+  @keyframes expandShrink {
+    0%, 100% {
+        background-position: 100% 25%;
+      }
+      50% {
+        background-position: 0% 25%;
+      }
+    }
+  
