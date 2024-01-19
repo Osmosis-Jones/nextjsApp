@@ -29,9 +29,8 @@ const Navbar = () => {
   }, []);
 
   useEffect(() => {
-    // Use GSAP for smooth animations
     gsap.to('.navbar', {
-      top: scrollDirection === 'up' ? '0' : '-160px',
+      top: scrollDirection === 'up' ? '0' : '-100px', // Adjust the value based on your layout
       duration: 0.3,
       ease: 'power2.inOut',
     });

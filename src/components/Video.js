@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import ReactPlayer from 'react-player'
+// import ReactPlayer from 'react-player'
 // import cloudinary from "cloudinary-video-player";
 // import "cloudinary-video-player/dist/cld-video-player.min.css";
 
